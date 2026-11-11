@@ -1,0 +1,32 @@
+# Arpy Bot Configuration
+# Check `ares-sc2/src/ares/config.yml` for all valid config options
+# Override defaults here
+
+BotName: Arpy
+BotRace: Protoss
+
+# Set to true for auto upload to aiarena on push to main
+AutoUploadToAiarena: False
+BotZipPubliclyDownloadable: False
+BotDataPubliclyDownloadable: False
+BotDataEnabled: True
+
+UseData: False
+Debug: False
+GameStep: 2
+DebugGameStep: 2
+
+# Turn ares features on/off
+Features:
+  # Tactical ground grid for disruptor avoidance etc
+  # Off by default to save computation
+  TacticalGroundGrid: False
+
+DebugOptions:
+  # One of: Air, AirVsGround, Ground, GroundAvoidance, AirAvoidance
+  ActiveGrid: TacticalGround
+  ChatDebug: True
+  DebugSpawn: False
+  ShowPathingCost: False
+  ResourceDebug: False
+  ShowBuildingFormation: False

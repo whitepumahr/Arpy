@@ -1,0 +1,34 @@
+# Arpy Protoss Build Orders
+# This file is optional and here for future use with the ares build runner
+# Currently Arpy uses its own hand-coded build logic in main.py
+# When ready to migrate to the build runner, define builds here
+
+UseData: False
+BuildSelection: Cycle
+
+BuildChoices:
+  Protoss:
+    BotName: Arpy
+    Cycle:
+      - ArpyStandard
+  Terran:
+    BotName: Arpy
+    Cycle:
+      - ArpyStandard
+  Zerg:
+    BotName: Arpy
+    Cycle:
+      - ArpyStandard
+  Random:
+    BotName: Arpy
+    Cycle:
+      - ArpyStandard
+
+Builds:
+  ArpyStandard:
+    ConstantWorkerProductionTill: 0
+    OpeningBuildOrder:
+      # Placeholder - Arpy currently uses its own build logic
+      # When migrating to build runner, define the opening here, e.g.:
+      # ['14 pylon', '16 gateway', '17 assimilator', '19 cyber core', ...]
+      []

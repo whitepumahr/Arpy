@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Build artifacts
+dist/
+cython_extensions/build/
+
+# IDE
+.vscode/
+.qodo/
+
+# Logs
+logs/*.log
+
+# OS
+Thumbs.db

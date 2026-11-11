@@ -1,0 +1,7 @@
+git+https://github.com/august-k/python-sc2@develop
+cython-extensions-sc2
+git+https://github.com/spudde123/SC2MapAnalysis.git@develop
+scikit-learn
+PyYAML
+tqdm
+loguru
